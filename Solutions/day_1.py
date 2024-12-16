@@ -1,7 +1,8 @@
 # https://adventofcode.com/2024/day/1
+INPUTS = "../Inputs/day_1.txt"
 
 def one_star():
-    with open("day_1.txt", "r") as file:
+    with open(INPUTS, "r") as file:
         data = [line.split() for line in file]
 
     list_a = sorted(int(x[0]) for x in data)
@@ -10,7 +11,7 @@ def one_star():
     return sum(abs(a - b) for a, b in zip(list_a, list_b))
 
 def two_star():
-    with open("day_1.txt", "r") as file:
+    with open(INPUTS, "r") as file:
         data = [line.split() for line in file]
     
     list_a = [int(x[0]) for x in data]
