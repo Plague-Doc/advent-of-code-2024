@@ -1,5 +1,5 @@
 # https://adventofcode.com/2024/day/2
-INPUTS = "../Inputs/day_2.txt"
+INPUTS = "inputs/day_2.txt"
 
 def one_star():
     with open(INPUTS, "r") as file:
