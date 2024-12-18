@@ -1,6 +1,6 @@
-# https://adventofcode.com/2024/day/3
 import re
 
+# https://adventofcode.com/2024/day/3
 INPUTS = "inputs/day_3.txt"
 
 def one_star():
